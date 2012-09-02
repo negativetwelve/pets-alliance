@@ -1,5 +1,5 @@
 # Pets Alliance
 
 To run tests:
-  $ bundle exec rspec spec/
+    $ bundle exec rspec spec/
 
