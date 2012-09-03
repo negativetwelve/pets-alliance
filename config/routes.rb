@@ -9,6 +9,8 @@ PetsAlliance::Application.routes.draw do
   resources :relationships, only: [:create, :destroy]
       
   root to: 'static_pages#home'
+  
+  match '/forums', to: 'static_pages#forums', as: 'forums'
 
   match '/signup',  to: 'users#new'
   match '/signin',  to: 'sessions#new'
